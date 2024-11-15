@@ -1,0 +1,94 @@
+{
+  "MerchantDetails": {
+    "merchantName": "Example Merchant",
+    "merchantPhoneNumber": "555-1234",
+    "merchantStatus": "Active"
+  },
+  "OrderLineItem": {
+    "orderItems": [],
+    "brandProductId": "PROD-123",
+    "productName": "Example Product",
+    "price": "9.99",
+    "quantity": "2",
+    "orderId": "ORDER-001"
+  },
+  "Pos": {
+    "storeId": 1,
+    "posStatus": "Online",
+    "merchantId": 123,
+    "posManufacturing": "POS Inc."
+  },
+  "OrderTransaction": {
+    "netAmt": "19.98",
+    "totalQty": "2",
+    "currency": "USD",
+    "transactionType": "Sale",
+    "orderId": "ORDER-001"
+  },
+  "Address": {
+    "fullName": "John Doe",
+    "addressName": "Home",
+    "address": "123 Main St",
+    "addressLink1": "Apt 456",
+    "addressLink2": "",
+    "city": "Anytown",
+    "state": "CA",
+    "zipCode": "12345",
+    "contactNo": "555-5678"
+  },
+  "Order": {
+    "uuid": "ORDER-001",
+    "storeId": "STORE-001",
+    "storeOrderId": 1234,
+    "posId": "POS-001",
+    "merchantId": "MERCHANT-001",
+    "sourceInfo": "Online",
+    "userId": "USER-001",
+    "address": {
+      "fullName": "John Doe",
+      "addressName": "Home",
+      "address": "123 Main St",
+      "addressLink1": "Apt 456",
+      "addressLink2": "",
+      "city": "Anytown",
+      "state": "CA",
+      "zipCode": "12345",
+      "contactNo": "555-5678"
+    }
+  },
+  "Otp": {
+    "phoneNumber": "555-1234",
+    "otp": "123456",
+    "createdAt": "2023-04-10T12:34:56.789Z",
+    "updatedAt": "2023-04-10T12:34:56.789Z"
+  },
+  "StoreDetails": {
+    "adapterUrl": "https://example.com/adapter",
+    "ecommerceUserName": "johndoe",
+    "ecommerceUrl": "https://example.com",
+    "posId": "POS-001",
+    "storeStatus": "Active",
+    "merchantId": "MERCHANT-001",
+    "storeAddress": "123 Main St, Anytown CA 12345",
+    "storeEmailAddress": "store@example.com",
+    "storePhoneNumber": "555-2222",
+    "ecommerceUserPassword": "password123",
+    "location": {
+      "type": "Point",
+      "coordinates": [-122.1697, 37.4275]
+    },
+    "shopOpeningHours": [],
+    "rating": 4.5,
+    "imageLink": "https://example.com/store-image.jpg",
+    "additionalData": []
+  },
+  "User": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "gender": "Male",
+    "email": "john.doe@example.com",
+    "phoneNumber": "555-1234",
+    "address": ["123 Main St, Anytown CA 12345"],
+    "created": "2023-04-10T12:34:56.789Z"
+  }
+}
